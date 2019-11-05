@@ -8,7 +8,7 @@ $ wget https://github.com/oliver006/redis_exporter/releases/download/v${VER}/red
 
 $ tar -xf redis_exporter-v${VER}.linux-amd64.tar.gz
 
-$ cp redis_exporter /usr/local/bin
+$ cp redis_exporter-v${VER}.linux-amd64/redis_exporter /usr/local/bin
 
 $ chown redis_exporter:redis_exporter /usr/local/bin/redis_exporter
 
