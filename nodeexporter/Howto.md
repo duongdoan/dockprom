@@ -13,9 +13,11 @@ $ rm -rf node_exporter-0.18.1.linux-amd64*
 
 
 #Create the systemd unit file:
+
 $ nano /etc/systemd/system/node_exporter.service
 
 #Content
+
 [Unit]
 Description=Node Exporter
 Wants=network-online.target
