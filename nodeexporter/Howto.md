@@ -12,11 +12,11 @@ $ rm -rf node_exporter-0.18.1.linux-amd64*
 
 
 
-#Create the systemd unit file:
+# Create the systemd unit file:
 
 $ nano /etc/systemd/system/node_exporter.service
 
-#Content
+# Content
 
 [Unit]
 Description=Node Exporter
@@ -33,16 +33,16 @@ ExecStart=/usr/local/bin/node_exporter
 WantedBy=multi-user.target
 
 
-#Reload the systemd daemon and start node exporter:
+# Reload the systemd daemon and start node exporter:
 
 $ systemctl daemon-reload
 $ systemctl start node_exporter
 
-#View status
+# View status
 $ systemctl status node_exporter
 
-#If everything looks good, enable the service on boot:
+# If everything looks good, enable the service on boot:
 $ systemctl enable node_exporter
 
 
-# Ref: https://blog.ruanbekker.com/blog/2019/05/07/setup-prometheus-and-node-exporter-on-ubuntu-for-epic-monitoring/
+#Ref: https://blog.ruanbekker.com/blog/2019/05/07/setup-prometheus-and-node-exporter-on-ubuntu-for-epic-monitoring/
