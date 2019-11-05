@@ -45,3 +45,4 @@ $ systemctl status node_exporter
 $ systemctl enable node_exporter
 
 
+# Ref: https://blog.ruanbekker.com/blog/2019/05/07/setup-prometheus-and-node-exporter-on-ubuntu-for-epic-monitoring/
