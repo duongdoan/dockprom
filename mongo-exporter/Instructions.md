@@ -8,7 +8,7 @@ $ wget https://github.com/percona/mongodb_exporter/releases/download/v${VER}/mon
 
 $ tar -xf mongodb_exporter-${VER}.linux-amd64.tar.gz
 
-$ cp rmongodb_exporter-${VER}.linux-amd64/mongodb_exporter /usr/local/bin
+$ cp mongodb_exporter /usr/local/bin
 
 $ chown mongodb_exporter:mongodb_exporter /usr/local/bin/mongodb_exporter
 
