@@ -12,7 +12,7 @@ $ cp mongodb_exporter /usr/local/bin
 
 $ chown mongodb_exporter:mongodb_exporter /usr/local/bin/mongodb_exporter
 
-$ rm -rf mongodb_exporter-${VER}.linux-amd64*
+$ rm -rf mongodb_exporter*
 
 
 
